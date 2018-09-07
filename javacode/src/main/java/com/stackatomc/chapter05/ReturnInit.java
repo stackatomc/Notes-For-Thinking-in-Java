@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: 重载方法与返回类型无关，同参数列表情况下方法名相同则为同意方法，与返回类型无关，编译器报错
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/22 23:41
  * @Version: 1.0
  * @Notes

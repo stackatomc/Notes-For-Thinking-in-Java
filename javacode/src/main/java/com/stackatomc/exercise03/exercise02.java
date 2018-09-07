@@ -2,7 +2,7 @@ package com.stackatomc.exercise03;
 
 /**
  * @Description: 别名机制和实例对象指向，改变A对B是否产生影响
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 19:00
  * @Version: 1.0
  *

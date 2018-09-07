@@ -6,7 +6,7 @@ import static com.stackatomc.chapter03.Print.*;//直接导入的方式
 
 /**
  * @Description: 简化System.out.println()
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/16 18:21
  * @Version: 1.0
  * @Notes

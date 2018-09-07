@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * @Description: 使用Random.nextBoolean();模拟扔硬币
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 19:58
  * @Version: 1.0
  */

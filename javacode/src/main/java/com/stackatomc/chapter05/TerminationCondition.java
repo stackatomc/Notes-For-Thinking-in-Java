@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * @Description: 重写finalize()方法
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/23 20:39
  * @Version: 1.0
  * @Notes

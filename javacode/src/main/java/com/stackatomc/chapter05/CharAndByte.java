@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: byte char short int 自动转型类型提升
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/23 0:01
  * @Version: 1.0
  * @Notes

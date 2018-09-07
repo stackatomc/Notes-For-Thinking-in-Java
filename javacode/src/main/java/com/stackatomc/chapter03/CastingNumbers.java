@@ -2,7 +2,7 @@ package com.stackatomc.chapter03;
 
 /**
  * @Description: 强制类型转化与四舍五入对精确度的取整/四舍五入区别
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/22 0:21
  * @Version: 1.0
  * @Notes

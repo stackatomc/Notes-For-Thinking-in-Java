@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 控制台对args数组赋值，注意String类型可更改为其他类型
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 20:28
  * @Version: 1.0
  */

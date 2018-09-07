@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 对比double与float的默认初始化值,均为0.0, 没有后面d或者f的标识
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 20:01
  * @Version: 1.0
  */

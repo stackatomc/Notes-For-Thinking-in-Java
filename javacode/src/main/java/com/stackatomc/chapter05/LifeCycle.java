@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: 验证初始化顺序，{} 非静态初始化就是普通的方法，类似匿名调用所以每次都调用这样
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/24 20:37
  * @Version: 1.0
  */

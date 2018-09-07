@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 三种方式调用static变量(类名,实例,直接调用)
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 20:10
  * @Version: 1.0
  */

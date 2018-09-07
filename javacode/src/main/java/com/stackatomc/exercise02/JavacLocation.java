@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 使用javac 和java 编译和运行
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 19:36
  * @Version: 1.0
  *

@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: Object... obj 方法可面向任意类型
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/25 20:39
  * @Version: 1.0
  */

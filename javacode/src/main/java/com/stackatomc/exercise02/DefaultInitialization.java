@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 验证Java的初始化,特别针对char类型的初始化值
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 19:00
  * @Version: 1.0
  */

@@ -2,7 +2,7 @@ package com.stackatomc.exercise03;
 
 /**
  * @Description: 按位操作符 & | ^ ~
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 23:56
  * @Version: 1.0
  * @Notes

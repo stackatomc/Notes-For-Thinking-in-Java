@@ -2,7 +2,7 @@ package com.stackatomc.exercise03;
 
 /**.
  * @Description: 使用Mathround(Math.random())模拟扔硬币
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 19:38
  * @Version: 1.0
  *

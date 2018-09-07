@@ -1,8 +1,8 @@
 package com.stackatomc.chapter05;
 
 /**
- * @Description:
- * @Author: stackc
+ * @Description: 枚举类
+ * @Author: Mayer
  * @Date: 2018/7/24 21:22
  * @Version: 1.0
  */

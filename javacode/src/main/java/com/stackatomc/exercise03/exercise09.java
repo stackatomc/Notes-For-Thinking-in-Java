@@ -2,7 +2,7 @@ package com.stackatomc.exercise03;
 
 /**
  * @Description: 指数记数法 1e-45
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 23:42
  * @Version: 1.0
  * @Notes

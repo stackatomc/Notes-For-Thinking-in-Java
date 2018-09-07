@@ -2,7 +2,7 @@ package com.stackatomc.exercise02;
 
 /**
  * @Description: 测试基本类型与包装类的自动装箱 Integer.getClass()运行时类类型
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/15 20:13
  * @Version: 1.0
  */

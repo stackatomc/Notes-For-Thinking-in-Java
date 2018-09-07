@@ -2,7 +2,7 @@ package com.stackatomc.chapter06;
 
 /**
  * @Description: 简单涉及权限的单例模式实现
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/25 19:27
  * @Version: 1.0
  * @Notes

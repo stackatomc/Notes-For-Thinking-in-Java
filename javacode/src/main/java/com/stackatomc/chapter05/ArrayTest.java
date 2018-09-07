@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @Description: 数组遍历打印方式3种 foreach/String... array/Arrays.toString(array)
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/24 20:52
  * @Version: 1.0
  * @Notes

@@ -2,7 +2,7 @@ package com.stackatomc.chapter03;
 
 /**
  * @Description: 短路 &&
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 23:11
  * @Version: 1.0
  *

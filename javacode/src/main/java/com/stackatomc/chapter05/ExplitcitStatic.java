@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: 静态类初始化和非静态类初始化方法执行顺序和区别
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/24 19:55
  * @Version: 1.0
  * @Notes

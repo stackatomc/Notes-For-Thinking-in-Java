@@ -2,7 +2,7 @@ package com.stackatomc.chapter03;
 
 /**
  * @Description: 三元操作符 boolean-exp ? value0 : value1
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/22 0:10
  * @Version: 1.0
  * @Notes

@@ -4,7 +4,7 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 
 /**
  * @Description: 编译器使用API指定生成数据类型,使用toBinaryString(数据类型) 可转换为二进制输出
- * @User: stackc
+ * @User: Mayer
  * @Date: 2018/7/21 23:16
  * @Version: 1.0
  *

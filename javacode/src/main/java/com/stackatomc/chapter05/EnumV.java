@@ -2,7 +2,7 @@ package com.stackatomc.chapter05;
 
 /**
  * @Description: 枚举类的简单使用
- * @Author: stackc
+ * @Author: Mayer
  * @Date: 2018/7/24 21:23
  * @Version: 1.0
  * @Notes
