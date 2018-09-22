@@ -21,4 +21,5 @@ class MyThread07 extends Thread{
 }
 
 public class Run7 {
+
 }

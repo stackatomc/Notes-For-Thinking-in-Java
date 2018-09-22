@@ -84,3 +84,25 @@ public class Run4 {
 		- 该方法会抛出ThreadDeath异常，但通常该异常不要显示地捕捉Run6.java
 	- 停止线程（结合interrupted()和return）
 		- 还是建议使用“抛异常”的方法来实现线程的停止，因为在catch块中还可以将异常向上抛，使线程停止的事件得以传播Run7.java
+- 暂停线程
+	- 可以使用suspend()暂停线程，用resume()方法恢复线程的执行
+	- suspend()与resume()的缺点：独占，如果使用不当，极易造成公共的同步对象的独占，是的其他线程无法访问公共同步对象
+	- 独占简单举例：线程A先调用C的synchronized方法，在C中suspend被暂停。B此后无法再调用该方法；另一种是A在主方法中被suspend()随后便输入"main end"可以，而当A的run方法中含有print方法时，当suspend()暂停时，print方法带锁不被释放，将不打印"main end"
+	- 缺点二：不同步。举例:A对C初始化，中途突然被暂停，初始化未完成。最后返回不同步的结果
+- yield方法
+	- Thread.yield() 表示CPU会让给其他资源导致速度变慢，而无yield时则表示CPU独占时间片时间
+- 线程的优先级
+	- 基本概念：从1到10，优先级越高得到的CPU资源较多，也就是CPU优先执行优先级较高的线程对象中的任务，但注意并不是一定先执行高优先级的任务
+	- 如果优先级小于1或者大于10，则JDK抛出异常throw new IllegalaRGUMENTeXCEPTION()
+	- JDK存在3个常量来预置定义优先级的值
+	```
+	//thread1.setPriority(1);
+	public final static int MIN_PRIORITY=1;
+	public final static int NORM_PRIORITY=5;
+	public final static int MAX_PRIORITY=10;
+	```
+	- 优先级有继承特性
+- 守护线程
+	- Java线程有两种线程，一种时用户线程，另一种是守护线程
+	- thread1.setDaemon(true);
+	- 特点是只要当前当前实例中存在任何一个非守护线程美哟u结束，守护县城救灾工作，只有当最后以恶搞结束是，守护线程按此随着JVM一同结束工作。最典型的守护线程就是垃圾回收线程，也也就是说守护线程最典型的应用就是GC(垃圾回收器)
