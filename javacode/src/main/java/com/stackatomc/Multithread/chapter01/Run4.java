@@ -23,11 +23,22 @@ class MyThread04 extends Thread{
 
     @Override
     public synchronized void run(){
-        super.run();
-        while(count>0){
-            count--;
-            System.out.println(this.currentThread().getName()+":"+count);
+
+        try{
+            super.run();
+            while(count>0){
+                //if(count>0){
+                count--;
+                System.out.println(this.currentThread().getName()+":"+count);
+                currentThread().interrupt();
+                if(Thread.interrupted()){
+                    break;
+                }
+         }
+        }catch(Exception e){
+            e.printStackTrace();
         }
+
     }
 }
 public class Run4 {
@@ -51,6 +62,7 @@ public class Run4 {
         Thread threadC=new Thread(t5,"C");
         Thread threadD=new Thread(t5,"D");
         threadA.start();
+
         threadB.start();
         threadC.start();
         threadD.start();
